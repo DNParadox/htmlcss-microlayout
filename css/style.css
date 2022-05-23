@@ -7,6 +7,9 @@ img {
     height: 500px;
 }
 
+.row {
+    padding-left: 1rem;
+}
 .circle {
     width: 20px;
     height: 20px;
@@ -23,6 +26,17 @@ img {
 .review:last-child {
     vertical-align: top;
 }
+
+.lightgreytext {
+    color: #4a4a4a;;
+}
+
+.dotted {
+    text-decoration: underline dotted;
+    padding-top: 0.1rem;
+}
+
+
 @media screen and (min-width:960px) {
     .image-section {
         display: flex;
